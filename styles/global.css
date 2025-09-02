@@ -25,7 +25,7 @@
 
     /* Tipografia */
 
-    --ff-base: 'Monteserrat', sans-serif;
+    --ff-base: "Monteserrat", sans-serif;
     --text-sm: 0.875rem;
     --text-base: 1rem;
     --text-lg: 2.5rem;
@@ -35,13 +35,13 @@
 }
 
 html,
-butto {
+button {
     font: 500 1rem/1.5 var(--ff-base);
 }
 
 h1,
 h2 {
-    font-family: 'Syne' sans-serif;
+    font-family: 'Syne', sans-serif;
 }
 
 h1 {
