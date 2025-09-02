@@ -6,22 +6,11 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: deeppink;
-
-    h1 {
-        font: var(--h1);
-    }
-
-    h2 {
-        font: var(--h2);
-    }
-}
 
 :root {
 
     /* Marca */
-
+    --snitap-sun: #FFCD1E;
     --snitap-sky-mid: #06B6D4;
     --snitap-sky-light: #67E8F9;
     --snitap-joy-mid: #DB2777;
@@ -42,14 +31,16 @@ body {
     --text-lg: 2.5rem;
     --text-xl: 4rem;
 
-     
+
 }
 
-html, butto {
+html,
+butto {
     font: 500 1rem/1.5 var(--ff-base);
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Syne' sans-serif;
 }
 
@@ -61,4 +52,9 @@ h1 {
 h2 {
     font-size: var(--text-lg);
     line-height: 1.2;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }
